@@ -24,7 +24,7 @@ section {
     height: 150px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("../images/00-hero-bg.jpg");
+    background-image: url("./images/00-hero-bg.jpg");
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +36,7 @@ section {
 }
 .hero h2, .hero h3 {
     font-family: 'Poppins', sans-serif;
-    color: black;
+    color: white;
     text-shadow: 0px 0px 5px grey;
     margin-right: 10px ;
 }
@@ -76,8 +76,6 @@ section {
 }
 
 #skills ul li::before {
-    content: "\261E";
-    color: orange;
     font-weight: bolder;
     display: inline-block;
     width: 2rem;
